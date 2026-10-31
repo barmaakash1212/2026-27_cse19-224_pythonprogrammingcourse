@@ -1,0 +1,7 @@
+principle_amount_in_rupees=float(input("Enter principle amount in rupees: "))
+Rate_of_interest_in_percent=float(input("Enter rate of amount in percent: "))
+time_in_year=float(input("Enter time in year: "))
+simple_interest_in_rupees=(principle_amount_in_rupees*Rate_of_interest_in_percent**time_in_year)
+compound_interest_in_rupees=(simple_interest_in_rupees-principle_amount_in_rupees)
+print(f"simple interest is {simple_interest_in_rupees} rupees")
+print(f"compound interest is {compound_interest_in_rupees} rupees")
