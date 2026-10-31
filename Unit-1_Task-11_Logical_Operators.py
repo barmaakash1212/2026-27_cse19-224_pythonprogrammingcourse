@@ -1,0 +1,6 @@
+number1 = float(input("Enter first number: "))
+number2 = float(input("Enter second number: "))
+print("Logical Operators Results:")
+print(f"({number1} > 5) and ({number2} > 15) is {(number1 > 5) and (number2 > 15)}")
+print(f"({number1} > 50) or ({number2} > 15) is {(number1 > 50) or (number2 > 15)}")
+print(f"not ({number1} > 50) is {not (number1 > 50)}")
